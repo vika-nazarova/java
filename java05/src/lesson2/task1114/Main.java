@@ -1,4 +1,4 @@
-package lesson2.task1115;
+package lesson2.task1114;
 
 import java.io.*;
 import java.util.*;
@@ -7,7 +7,7 @@ public class Main {
     void solve(Scanner in, PrintWriter out) {
         int a = in.nextInt();
         int b = in.nextInt();
-        out.printf("%d %d %d", b / a, b % a, a % (a - b % a));
+        out.println((a * b + 109) % 109 + 1);
     }
 
     void run() {
